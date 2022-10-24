@@ -1,0 +1,18 @@
+body{background-image:url(kasa2.jpg);width:1200px;height:800px;background-size:cover;background-repeat:no-repeat;background-position:center;padding:0}
+.bar{background-color:black;height:80px;width:1200px;display:flex;align-items:center;justify-content:space-between; padding: 0 5%;}
+.logo{color:white;font-size:30px;}
+.logo span{color: blue;}
+.bar ul{list-style:none;display:flex;}
+.bar ul li{padding:10px 20px;position:relative}
+.bar ul li a{color:white;text-decoration:none;font-size:20px;}
+.bar ul li button{font-size:20px;outline: none;color: white;background-color: inherit;font-family: inherit;margin: 0;}
+.bar ul li a:hover{color:blue;}
+.bar ul li button:hover{color:blue;}
+.dropdown_menu{display:none;}
+.dropdown_menu:hover.dropdown_menu ul li{display:block;position:absolute;left:0;top:100%;background-color:black;}
+.dropdown_menu ul{display:block;margin:5px;}
+.dropdown_menu ul li{width:140px;padding:10px}
+.fa{float:right;margin-left:5px;padding-top:3px;}
+.dropdown_menu1{display:block;position:absolute;top:0;left:150px;background-color:black;}
+.dropdown_menu1 ul{display:block;margin:5px;}
+.dropdown_menu1 ul li{width:140px;padding:10px}

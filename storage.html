@@ -1,0 +1,20 @@
+<html>
+<body>
+
+<div id="result">
+<script>
+for(username=0;username<10;username++){
+var byrone=["me","him","them",345];
+const byr=JSON.stringify(byrone);
+localStorage.setItem("username",byr);
+localStorage.setItem("password","1234");
+
+var uname=document.createElement("p");
+uname.innerHTML=localStorage.getItem("username");
+document.getElementById("result").appendChild(uname);
+}
+</script>
+</div>
+</body>
+</html>
+

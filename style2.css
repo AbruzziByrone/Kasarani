@@ -1,0 +1,40 @@
+*{margins:3px;padding:0px;}
+body{background-image:url(kasa3.jpg);width:1200px;height:500px;background-size:cover;background-repeat:no-repeat;background-position:center}
+.menubar{background-color:black;font-color:white;display:flex;flex-wrap:wrap;text-align:flex-end;justify-content:space-between;padding:0 10px;height:150px}
+.sub1{color:white;font-size:30px;}
+.logo span{color: blue;}
+.sub2 ul{display:inline-flex;color:white;list-style:none;margin-top:50px}
+.sub2 ul li{padding:0 10px;margin:15px;width:120px}
+.sub2 ul li a{text-decoration:none;color:white;font-size:20px;}
+.sub2 ul li:hover,.active{background-color:green;radius:50px;}
+.account{display:none}
+.sub2 ul li:hover .account{display:block;position:absolute;background-color:black;margin-top:1px;margin-left:0px}
+.sub2 ul li:hover .account ul{display:block;margin-top:1px;}
+.sub2 ul li:hover .account ul li{width:150px;padding:10px;border-bottom:1px dotted white;text-align:left;border-radius:15px;}
+.submenu1{display:none}
+.sub2 ul li:hover .submenu1{display:block;position:absolute;background-color:black;margin-top:1px;margin-left:0px}
+.sub2 ul li:hover .submenu1 ul{display:block;margin-top:1px;}
+.sub2 ul li:hover .submenu1 ul li{width:150px;padding:10px;border-bottom:1px dotted white;text-align:left;border-radius:15px;}
+.contact{display:none;}
+.sub2 ul li:hover .contact{display:block;position:absolute;background-color:black;margin-top:-1px}
+.sub2 ul li:hover .contact ul{display:block;margin-top:1px;}
+.sub2 ul li:hover .contact ul li{width:150px;padding:10px;border-bottom:1px dotted white;text-align:left;border-radius:15px;}
+.win2{padding:200px 500px;}
+.window{background-image:url("olunga.jpg");background-position:center;background-size:cover;width:300px;height:200px;padding:100px 20px
+0px 30px;}
+label{color: black;font-weight:bold;font-size:17px;}
+.submit{position:relative;left:100px;background-color:red;border-color:white;color:white;font-weight:bold;border-radius:5px;cursor:pointer;height:30px;width:60px;}
+.submit:hover{background-color:green;}
+.window p{color:white;font-size:15px;}
+.window a{font-size:17px;font-weight:bold;color:black;}
+.window a:hover{color:green;}
+footer{height:80px;background-color:yellow;}
+.win3{padding:200px 500px;}
+.win4{background-color:grey;background-position:center;background-size:cover;width:200px;height:150px;padding:100px 20px
+0px 30px;}
+label{color: black;font-weight:bold;font-size:14px;}
+.saka{position:relative;left:50px;background-color:red;border-color:white;color:white;font-weight:bold;border-radius:5px;cursor:pointer;height:30px;width:60px;bottom:-20px;}
+.saka:hover{background-color:green;}
+.cont{background-color:grey;}
+.vid{position:relative;left:200px;height:200px;width:200px;}
+.clips{}
